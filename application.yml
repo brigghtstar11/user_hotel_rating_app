@@ -10,7 +10,6 @@ spring:
       ddl-auto: update
   zipkin:
     enabled: true
-    api-path: http://localhost:9411/api/v2/spans
     
 eureka:
   instance:
