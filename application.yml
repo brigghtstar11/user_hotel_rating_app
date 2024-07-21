@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/hotel_management_app
-    driver-class-name: org.postgresql.Driver
-    username: postgres
+    url: jdbc:oracle:thin:@//localhost:1521/orcl
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: system
     password: system
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
