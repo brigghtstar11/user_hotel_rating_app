@@ -4,7 +4,7 @@ spring:
     username: system
     password: system
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database-platform: org.hibernate.dialect.OracleDialect
     hibernate:
       ddl-auto: update
   zipkin:
